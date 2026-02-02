@@ -17,7 +17,8 @@ Major Changes
 
 Minor Changes
 -------------
-Supported versions: 13.5, 14.3, 15.0
+* Supported versions: 13.5, 14.3, 15.0
+* Put ansible facts into the dictionary ansible_facts
 
 
 2.8.1
