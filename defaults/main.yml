@@ -1,6 +1,6 @@
 ---
 # defaults for freebsd_zfs
-fzfs_role_version: 2.8.1
+fzfs_role_version: 2.8.2
 
 fzfs_enable: false
 fzfs_debug: false
