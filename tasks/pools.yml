@@ -19,7 +19,7 @@
                                | flatten
                                | sort }}"
     disks_other: "{{ pool_disks | intersect(pool_status_names_other) }}"
-    mount_devices: "{{ ansible_mounts | map(attribute='device') | sort }}"
+    mount_devices: "{{ ansible_facts.mounts | map(attribute='device') | sort }}"
     disks_mounted: "{{ pool_disks | intersect(mount_devices) }}"
     disks_all: "{{ pool_disks | length }}"
     disks_unique: "{{ pool_disks | unique | length }}"
